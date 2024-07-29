@@ -1,8 +1,7 @@
-# React + Vite
+# My Portfolio Website
+Welcome to the README for my portfolio website! This site is a showcase of my work and skills, built using modern web technologies. Below you'll find details on the technologies used, how to get started, and other useful information.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used
+React: A powerful JavaScript library for building user interfaces. React allows for the creation of reusable UI components and helps manage the state of the application efficiently.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite: A fast build tool that serves as the development server and bundler for the project. Vite provides a smooth development experience with features like hot module replacement and lightning-fast builds.
