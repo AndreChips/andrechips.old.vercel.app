@@ -25,6 +25,7 @@ import centralai from "./company/centralai.jpg";
 import umn from "./company/umn.jpg";
 import teaterkatak from "./company/teater-katak.jpg";
 import atm from "./company/atm-logo.png";
+import panin from "./company/panin.jpg";
 
 import anugerah from "./works/ATM.png";
 import genshintinder from "./works/GenshinTinder.png";
@@ -65,4 +66,5 @@ export {
   orangeburger,
   seiyou,
   travelokie,
+  panin,
 };

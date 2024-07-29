@@ -19,20 +19,20 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hello, my name is Andre Chandra Putra, I am a passionate and creative
-        individual who recently graduated from Multimedia Nusantara University
-        as an Informatics student. Throughout my academic journey, I have
-        cultivated a strong foundation in various aspects of technology, merging
-        my love for innovation and artistic expression. My time at the
-        university equipped me with a diverse skill set, including programming
-        languages, web development, graphic design, and multimedia production.
-        With an insatiable curiosity for emerging technologies, I constantly
-        seek to push the boundaries of what is possible in the digital realm. As
-        you explore my portfolio, you will discover a collection of projects
-        that showcase my dedication to crafting immersive and user-centric
-        experiences. I am eager to embark on new challenges and collaborations,
-        leveraging my expertise to contribute meaningfully to the ever-evolving
-        world of informatics.
+        Software Engineer with 1+ years of experience specializing in web and
+        mobile application development. With a profound passion for front-end
+        development, I am dedicated to mastering new skills and technologies,
+        currently improving my skills in React.js and Next.js. My proficiency
+        includes HTML, CSS, JavaScript, and TypeScript. I thrive in
+        collaborative team environments and working independently, bringing
+        strong communication skills and a cooperative approach to every project.
+        I am always open to being taught and learning the best ways to improve
+        my skills. Committed to continuous growth, I stay updated with the
+        latest trends and best practices in front-end development to deliver
+        innovative and high-quality solutions. My dedication to improvement and
+        my software engineering background provides me with a well-rounded
+        understanding of the entire development process, enabling me to
+        contribute effectively to the success of projects.
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">

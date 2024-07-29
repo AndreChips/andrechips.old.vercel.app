@@ -26,6 +26,7 @@ import {
   orangeburger,
   seiyou,
   travelokie,
+  panin,
 } from "../assets";
 
 export const navLinks = [
@@ -123,6 +124,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Panin Dai-ichi Life",
+    role: "Full Time",
+    icon: panin,
+    iconBg: "#ffffff",
+    date: "Oct 2023 - Present",
+    points: [
+      "Handle requests related to maintaining and enhancing Cordova-based mobile application, SQLCipher-based database management, including adding desired features and fixing existing bugs, while ensuring seamless integration with SQL Server",
+      "Manage ongoing development and support for web applications utilizing Spring Tool Suite, including adding new features, troubleshooting issues, and maintaining connections to SQL Server databases and REST APIs.",
+      "Support and improve a hybrid application using the Ionic Angular framework, focusing on implementing requests that involve calling REST APIs and Firebase APIs for real-time data synchronization.",
+    ],
+  },
+  {
     title: "Lab Assistant",
     company_name: "Lab FTI Universitas Multimedia Nusantara",
     role: "Volunteer",
@@ -130,7 +144,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Feb 2023 - June 2023",
     points: [
-      "Teaching one of UMN's IT Subject which is Introduction to Internet Technology.",
+      "Taught `Introduction to Internet Technology` at Universitas Multimedia Nusantara (UMN) to a class of 20+ students.",
+      "Created basic websites using HTML, CSS, JavaScript, jQuery, and built websites using ReactJS and Bootstrap.",
+      "Integrated APIs using Axios for data fetching and dynamic content updates.",
     ],
   },
   {
@@ -142,8 +158,7 @@ const experiences = [
     date: "Aug 2022 - Dec 2022",
     points: [
       "Developed one of the company's product which is Central POS (Point of Sales) within 4 months using JavaScript as the main programming language with React Native Framework.",
-      "Led one of Central AI's Mobile Developer Teams by assigning tasks to the other developer.",
-      "Collaborated with the UI/UX Designer Team to improve the overall interface of the application.",
+      "Led one of Central AI`s Mobile Developer Teams, assigning tasks to other developers and collaborating with the UI/UX Designer Team to improve the application interface.",
       "Implemented all of the application interface based on the mockup provided by the UI/UX Designed Team.",
     ],
   },
