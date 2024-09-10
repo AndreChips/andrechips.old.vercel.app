@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom'
 import {
   About,
   Contact,
@@ -7,19 +7,19 @@ import {
   Navbar,
   Works,
   StarsCanvas,
-  Footer,
-} from "./components";
+  Footer
+} from './components'
 
-import { motion, useScroll, useSpring } from "framer-motion";
-import "./index.css";
+import { motion, useScroll, useSpring } from 'framer-motion'
+import './index.css'
 
 const App = () => {
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-    restDelta: 0.001,
-  });
+    restDelta: 0.001
+  })
 
   return (
     <BrowserRouter>
@@ -36,10 +36,10 @@ const App = () => {
           <Contact />
         </div>
         <Footer />
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
       </div>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default App;
+export default App
